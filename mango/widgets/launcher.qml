@@ -539,13 +539,13 @@ ShellRoot {
                         font.pixelSize: 19; font.weight: Font.Medium; color: Qt.rgba(1,1,1,0.80) }
                 }
                 HoverHandler { id: ic3h }
-                TapHandler { onTapped: { Quickshell.execDetached(["chromium"]); Qt.quit() } }
+                TapHandler { onTapped: { Quickshell.execDetached(["signal-desktop"]); Qt.quit() } }
                 Rectangle {
                     anchors.bottom: parent.top; anchors.horizontalCenter: parent.horizontalCenter
                     anchors.bottomMargin: 8; visible: ic3h.hovered
                     color: Qt.rgba(0,0,0,0.12); radius: 7
                     width: ict3.width+16; height: ict3.height+10
-                    Text { id: ict3; anchors.centerIn: parent; text: "Chromium"
+                    Text { id: ict3; anchors.centerIn: parent; text: "Contacts"
                         color: Qt.rgba(1,1,1,0.88); font.pixelSize: 12
                         font.family: shell.sf; font.weight: Font.Medium }
                 }
