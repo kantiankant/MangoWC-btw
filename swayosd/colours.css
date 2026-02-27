@@ -1,0 +1,6 @@
+/* 8-bit hex: #RRGGBBAA */
+@define-color background-color #FFFFFF1A; /* White with 10% opacity */
+@define-color border-color     #FFFFFF66; /* White with 40% opacity */
+@define-color label            #FFFFFF99; /* White with 60% opacity */
+@define-color image            #FFFFFF; /* White with 60% opacity */
+@define-color progress         #FFFFFFFF; /* White fully solid */
